@@ -399,5 +399,249 @@ div .enddd .a3{
     width: 105px;
 }
 
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1200px) {
+    /* تعديلات على عناصر القائمة */
+    .nav .left ul {
+        margin: 40px;
+        padding: 20px;
+    }
+    .nav .right ul {
+        left: 800px;
+    }
+    /* تعديلات على الصور */
+    div .rightimg img,
+    div .rightimg2 img,
+    div .rightimg3 img,
+    div .rightimg4 img,
+    div .img1 img,
+    div .img2 img,
+    div .img3 img,
+    div .img4 img,
+    div .img5 img,
+    div .img6 img,
+    div .img7 img,
+    div .img8 img {
+        width: 70%;
+        height: auto;
+        right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* تعديلات على عناصر القائمة */
+    .nav .left ul {
+        margin: 20px;
+        padding: 10px;
+    }
+    .nav .right ul {
+        left: 600px;
+    }
+    /* تعديلات على الصور */
+    .bigimg img {
+        height: 400px;
+    }
+    div .rightimg img,
+    div .rightimg2 img,
+    div .rightimg3 img,
+    div .rightimg4 img,
+    div .img1 img,
+    div .img2 img,
+    div .img3 img,
+    div .img4 img,
+    div .img5 img,
+    div .img6 img,
+    div .img7 img,
+    div .img8 img {
+        width: 90%;
+        height: auto;
+        right: 30px;
+    }
+    /* تعديلات على النصوص */
+    .section .p2,
+    .section .p3,
+    .section .p4 {
+        left: 50px;
+        top: 800px;
+    }
+    /* تعديلات على الفوتر */
+    .footer {
+        top: 1500px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* تعديلات على عناصر القائمة */
+    .nav .left ul {
+        margin: 10px;
+        padding: 5px;
+    }
+    .nav .right ul {
+        left: 400px;
+    }
+    /* تعديلات على الصور */
+    .bigimg img {
+        height: 200px;
+    }
+    div .h1 h1,
+    div .h4 p {
+        left: 20px;
+        top: 100px;
+    }
+    div .rightimg img,
+    div .rightimg2 img,
+    div .rightimg3 img,
+    div .rightimg4 img,
+    div .img1 img,
+    div .img2 img,
+    div .img3 img,
+    div .img4 img,
+    div .img5 img,
+    div .img6 img,
+    div .img7 img,
+    div .img8 img {
+        width: 100%;
+        height: auto;
+        right: 10px;
+    }
+    /* تعديلات على النصوص */
+    .section .p2,
+    .section .p3,
+    .section .p4 {
+        left: 20px;
+        top: 700px;
+    }
+    /* تعديلات على الفوتر */
+    .footer {
+        top: 1200px;
+    }
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries for Responsive Design */
+/* @media (max-width: 1200px) {
+    .nav .left ul {
+        margin: 40px;
+        padding: 20px;
+    }
+    .nav .right ul {
+        left: 800px;
+    }
+    div .rightimg img,
+    div .rightimg2 img,
+    div .rightimg3 img,
+    div .rightimg4 img,
+    div .img1 img,
+    div .img2 img,
+    div .img3 img,
+    div .img4 img,
+    div .img5 img,
+    div .img6 img,
+    div .img7 img,
+    div .img8 img {
+        width: 70%;
+        height: auto;
+        right: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .nav .left ul {
+        margin: 20px;
+        padding: 10px;
+    }
+    .nav .right ul {
+        left: 600px;
+    }
+    .bigimg img {
+        height: 400px;
+    }
+    div .h1 h1,
+    div .h4 p {
+        left: 50px;
+        top: 150px;
+    }
+    div .rightimg img,
+    div .rightimg2 img,
+    div .rightimg3 img,
+    div .rightimg4 img,
+    div .img1 img,
+    div .img2 img,
+    div .img3 img,
+    div .img4 img,
+    div .img5 img,
+    div .img6 img,
+    div .img7 img,
+    div .img8 img {
+        width: 90%;
+        height: auto;
+        right: 30px;
+    }
+    .section .p2,
+    .section .p3,
+    .section .p4 {
+        left: 50px;
+        top: 800px;
+    }
+    .footer {
+        top: 1500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav .left ul {
+        margin: 10px;
+        padding: 5px;
+    }
+    .nav .right ul {
+        left: 400px;
+    }
+    .bigimg img {
+        height: 200px;
+    }
+    div .h1 h1,
+    div .h4 p {
+        left: 20px;
+        top: 100px;
+    }
+    div .rightimg img,
+    div .rightimg2 img,
+    div .rightimg3 img,
+    div .rightimg4 img,
+    div .img1 img,
+    div .img2 img,
+    div .img3 img,
+    div .img4 img,
+    div .img5 img,
+    div .img6 img,
+    div .img7 img,
+    div .img8 img {
+        width: 100%;
+        height: auto;
+        right: 10px;
+    }
+    .section .p2,
+    .section .p3,
+    .section .p4 {
+        left: 20px;
+        top: 700px;
+    }
+    .footer {
+        top: 1200px;
+    }
+} */
